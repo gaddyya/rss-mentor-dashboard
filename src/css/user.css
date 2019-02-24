@@ -1,0 +1,21 @@
+@import url(./fonts.css);
+
+.user {
+  width: 200px;
+  margin: 20px auto;
+  font-family: HelveticaLight, sans-serif;
+  font-size: 18px;
+}
+
+.user p {
+  display: inline-block;
+}
+
+.user p:first-child {
+  width: 30%;
+  font-size: 14px;
+}
+
+.user p:last-child {
+  width: 70%;
+}

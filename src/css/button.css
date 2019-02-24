@@ -1,0 +1,40 @@
+@import url(./fonts.css);
+
+.button {
+  display: block;
+  width: 150px;
+  margin: 20px auto;
+  background-color: rgba(16, 19, 19, 0.938);
+  border-radius: 5px;
+}
+
+.button span {
+  font-size: 24px;
+  padding: 5px 8px 5px 0;
+}
+
+.button a {
+  font-family: HelveticaLight, sans-serif;
+  color: beige;
+  font-size: 18px;
+  padding: 5px;
+  margin-left: 3px;
+}
+
+.button:hover {
+  background-color: rgba(46, 49, 49, 0.829);
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.button:hover a {
+  color: rgb(225, 165, 233);
+  -webkit-transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
